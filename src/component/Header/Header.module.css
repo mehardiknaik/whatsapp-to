@@ -1,0 +1,15 @@
+
+.wavecontainer{
+  position: relative;
+    height: 150px;
+}
+.wave {
+  height: 50vh;
+  width: 100%;
+  background: red;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.textcontainer{
+  margin-bottom: 20px;
+}
