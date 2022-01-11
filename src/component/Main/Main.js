@@ -1,9 +1,9 @@
 import { Button, Container, TextField } from "@mui/material";
-import styles from "./Header.module.css";
+import styles from "./Main.module.css";
 import { useForm } from "react-hook-form";
 import SendIcon from '@mui/icons-material/Send';
 
-const Header = () => {
+const Main = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     window.location.href=`http://wa.me/91${data.number}`;
@@ -25,7 +25,7 @@ const Header = () => {
           />
         </div>
         <div className={styles.buttoncontainer}>
-          <Button type="submit" variant="contained" endIcon={<SendIcon />}>
+          <Button type="submit" variant="text" endIcon={<SendIcon />}>
            Send Message
           </Button>
         </div>
@@ -35,4 +35,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Main;

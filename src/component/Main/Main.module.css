@@ -1,0 +1,14 @@
+.wavecontainer {
+  position: relative;
+  height: 200px;
+}
+.wave {
+  height: 268px;
+  width: 100%;
+  background: #008316;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+.textcontainer {
+  margin-bottom: 20px;
+}
