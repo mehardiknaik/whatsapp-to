@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className={styles.buttoncontainer}>
           <Button type="submit" variant="contained" endIcon={<SendIcon />}>
-            Create Url
+           Send Message
           </Button>
         </div>
       </form>
