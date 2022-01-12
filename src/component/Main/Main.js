@@ -21,7 +21,7 @@ const Main = () => {
             label="Phone no"
             type="number"
             variant="outlined"
-            {...register("number", { required: true })}
+            {...register("number", { required: true,pattern:/(7|8|9)\d{9}/ })}
           />
         </div>
         <div className={styles.buttoncontainer}>
